@@ -1,0 +1,37 @@
+@import "tailwindcss";
+
+/* Custom Swiper Pill Pagination */
+.swiper-pagination {
+  bottom: 24px !important;
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+}
+
+.swiper-pagination-bullet {
+  width: 24px;
+  height: 4px;
+  border-radius: 2px;
+  background: rgba(255, 255, 255, 0.4);
+  opacity: 1;
+  transition: all 0.3s ease;
+}
+
+.swiper-pagination-bullet-active {
+  width: 48px;
+  background: #D4AF37;
+}
+
+/* Ken Burns Slow Zoom Effect */
+@keyframes kenBurns {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.08);
+  }
+}
+
+.animate-ken-burns {
+  animation: kenBurns 7s ease-out infinite alternate;
+}
