@@ -4,7 +4,7 @@ import Layout from "../components/layout/Layout";
 
 import Home from "../pages/Home";
 import About from "../pages/About";
-import Leadership from "../pages/Leadership";
+import LeaderShip from "../pages/LeaderShip";
 import WorkingSector from "../pages/WorkingSector";
 import Events from "../pages/Events";
 import Gallery from "../pages/Gallery";
