@@ -9,6 +9,7 @@ import Contact from "../components/home/contact/Contact";
 import VideoGallery from "../components/home/videogallery/VideoGallery";
 import WorkingSectors from "../components/home/WorkingSectors/WorkingSectors";
 import TeamSection from "../components/home/team/TeamSection";
+import Human3DSection from "../components/home/human3D/Human3DSection";
 const Home = () => {
     return (
         <>
@@ -17,6 +18,7 @@ const Home = () => {
         <Impact/>
         <Leadership/>
         <TeamSection/>
+        <Human3DSection/>
         <WorkingSectors/>
         <FeaturedInitiatives/>
         <PhotoGallery/>
