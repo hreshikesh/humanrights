@@ -1,5 +1,5 @@
-import chairman from "../../../assets/leadership/chairman.webp";
-import director from "../../../assets/leadership/director.webp";
+import chairman from "../../../assets/people/raja.webp";
+import director from "../../../assets/people/indra.webp";
 
 export const leadershipData = [
   {

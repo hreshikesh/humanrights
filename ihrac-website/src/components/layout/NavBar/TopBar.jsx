@@ -16,18 +16,14 @@ const TopBar = () => {
 
           <div className="flex items-center gap-2">
             <Phone size={15} />
-            <span>+91 XXXXX XXXXX</span>
+            <span>+91 8957422101</span>
           </div>
 
           <div className="flex items-center gap-2">
             <Mail size={15} />
-            <span>info@ihrac.org</span>
+            <span>contactihrac@gmail.com</span>
           </div>
 
-          <div className="flex items-center gap-2">
-            <Clock3 size={15} />
-            <span>Mon - Sat : 9AM - 6PM</span>
-          </div>
 
         </div>
 

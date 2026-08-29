@@ -10,7 +10,7 @@ const AboutImage = () => {
       whileInView={{ opacity: 1, x: 0 }}
       transition={{ duration: 0.8, ease: "easeOut" }}
       viewport={{ once: true }}
-      className="relative max-w-xl mx-auto lg:max-w-none w-full py-6 sm:py-0"
+      className="relative max-w-xl mb-10 mx-auto lg:max-w-none w-full py-6 sm:py-0"
     >
       {/* Main Image Container with Collage Elements */}
       <div className="relative p-2 sm:p-4 lg:p-0">

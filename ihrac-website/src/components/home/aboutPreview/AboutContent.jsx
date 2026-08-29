@@ -38,7 +38,7 @@ const AboutContent = () => {
 </div>
 
       {/* Action Buttons */}
-      <div className="flex flex-wrap items-center gap-4 mt-10">
+      {/* <div className="flex flex-wrap items-center gap-4 mt-10">
         <Link
           to="/about"
           className="bg-[#0B1F3A] hover:bg-[#15325c] text-white px-7 py-3.5 rounded-md font-bold uppercase tracking-wider text-sm transition-all duration-300 shadow-md hover:shadow-lg"
@@ -53,7 +53,7 @@ const AboutContent = () => {
           Contact Us
           <ArrowRight size={16} className="group-hover:translate-x-1 transition-transform" />
         </Link>
-      </div>
+      </div> */}
     </motion.div>
   );
 };

@@ -1,18 +1,60 @@
-import SectorCard from "./SectorCard";
+import { useState } from "react";
+import { motion, AnimatePresence } from "framer-motion";
 
-const SectorGrid = ({ data }) => {
+import SectionHeader from "./SectionHeader";
+import SectorTabs from "./SectorTabs";
+import SectorCarousel from "./SectorCourosel";
+
+import {
+  primarySectors,
+  secondarySectors,
+} from "./sectorsData";
+
+const WorkingSectors = () => {
+  const [activeTab, setActiveTab] = useState("primary");
+
+  const currentData =
+    activeTab === "primary"
+      ? primarySectors
+      : secondarySectors;
+
   return (
-    // Responsive Layout: 2 cards per row on mobile (grid-cols-2), 3 per row on desktop (xl:grid-cols-3)
-    <div className="grid grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 lg:gap-8">
-      {data.map((sector, index) => (
-        <SectorCard
-          key={sector.id}
-          {...sector}
-          index={index}
+    <section
+      id="workingSectors"
+      className="relative py-20 lg:py-32 overflow-hidden bg-slate-50"
+    >
+      {/* Ambient Background */}
+      <div className="absolute top-0 left-0 w-[500px] h-[500px] bg-[#D4AF37]/10 blur-[140px] rounded-full pointer-events-none" />
+      <div className="absolute bottom-0 right-0 w-[500px] h-[500px] bg-[#0B1F3A]/5 blur-[140px] rounded-full pointer-events-none" />
+
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 relative z-10">
+        <SectionHeader />
+
+        <SectorTabs
+          activeTab={activeTab}
+          setActiveTab={setActiveTab}
         />
-      ))}
-    </div>
+
+        <AnimatePresence mode="wait">
+          <motion.div
+            key={activeTab}
+            initial={{ opacity: 0, y: 18 }}
+            animate={{ opacity: 1, y: 0 }}
+            exit={{ opacity: 0, y: -18 }}
+            transition={{ duration: 0.35, ease: "easeInOut" }}
+            className="mt-10"
+          >
+            <SectorCarousel
+              data={currentData}
+              direction={activeTab === "primary" ? "left" : "right"}
+              speed={30}
+            />
+          </motion.div>
+        </AnimatePresence>
+
+      </div>
+    </section>
   );
 };
 
-export default SectorGrid;
+export default WorkingSectors;

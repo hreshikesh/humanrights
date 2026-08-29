@@ -23,27 +23,7 @@ const GalleryImage = ({
       {/* Gradient Overlay */}
       <div className="absolute inset-0 bg-gradient-to-t from-[#0B1F3A]/95 via-[#0B1F3A]/40 to-transparent" />
 
-      {/* Content Container */}
-      <div className="relative z-10 p-4 sm:p-6 lg:p-8 flex flex-col justify-end h-full">
-        {/* Category Pill */}
-        <span className="self-start inline-block rounded-full bg-[#D4AF37] px-3.5 py-1.5 text-xs sm:text-sm font-bold text-[#0B1F3A] shadow-md">
-          {category}
-        </span>
-
-        {/* Title */}
-        <h3 className="mt-2 sm:mt-3 text-base sm:text-xl lg:text-2xl font-bold text-white tracking-tight leading-snug line-clamp-2">
-          {title}
-        </h3>
-
-        {/* Action Link */}
-        <button className="mt-3 sm:mt-4 inline-flex items-center gap-1.5 sm:gap-2 text-xs sm:text-sm font-bold text-[#D4AF37]">
-          <span>View Image</span>
-          <ArrowUpRight
-            size={16}
-            className="transition-transform group-hover:translate-x-1 group-hover:-translate-y-1 group-active:translate-x-1 group-active:-translate-y-1"
-          />
-        </button>
-      </div>
+     
     </motion.div>
   );
 };

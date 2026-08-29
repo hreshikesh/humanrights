@@ -4,7 +4,6 @@ import { ArrowUpRight } from "lucide-react";
 const InitiativeListItem = ({ image, category, title, description, number }) => {
   return (
     <motion.a
-      href="#"
       className="group flex items-start gap-3 sm:gap-5 py-4 sm:py-6 border-b border-[#0B1F3A]/10 last:border-b-0"
     >
       <span className="font-mono text-xs sm:text-sm text-[#D4AF37] pt-0.5 shrink-0 w-5 sm:w-6">
@@ -31,10 +30,7 @@ const InitiativeListItem = ({ image, category, title, description, number }) => 
         </p>
       </div>
 
-      <ArrowUpRight
-        size={16}
-        className="shrink-0 mt-1 text-slate-300 transition-all group-hover:text-[#D4AF37] group-hover:translate-x-0.5 group-hover:-translate-y-0.5"
-      />
+     
     </motion.a>
   );
 };

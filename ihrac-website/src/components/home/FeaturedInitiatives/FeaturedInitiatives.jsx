@@ -29,7 +29,7 @@ const FeaturedInitiatives = () => {
   const rows = groupInitiatives(initiatives);
 
   return (
-    <section className="relative bg-white py-16 sm:py-24 lg:py-28">
+    <section id="initiatives" className="relative bg-white py-16 sm:py-24 lg:py-28">
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
 
         <div className="mb-10 sm:mb-14">
@@ -74,25 +74,7 @@ const FeaturedInitiatives = () => {
           ))}
         </div>
 
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.6 }}
-          className="mt-14 sm:mt-20 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-6 border-t border-[#0B1F3A]/10 pt-8 sm:pt-10"
-        >
-          <p className="text-sm sm:text-base text-slate-600 max-w-md leading-relaxed">
-            Explore the full range of programmes driving change across every state we work in.
-          </p>
-
-          <button className="group inline-flex items-center gap-2.5 rounded-full bg-[#0B1F3A] px-6 sm:px-7 py-3 sm:py-3.5 text-white text-sm font-bold shadow-sm transition-colors hover:bg-[#12345A] shrink-0">
-            <span>View all initiatives</span>
-            <ArrowRight
-              size={16}
-              className="transition-transform group-hover:translate-x-1"
-            />
-          </button>
-        </motion.div>
+      
 
       </div>
     </section>

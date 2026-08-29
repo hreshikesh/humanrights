@@ -10,60 +10,51 @@ import img8 from "../../../assets/photogallery/photo.webp";
 export const galleryImages = [
   {
     id: 1,
-    image: img1,
-    title: "Human Rights Awareness Campaign",
-    category: "Human Rights",
-    large: true,
+    image: "https://res.cloudinary.com/eelqgto5/image/upload/v1786737696/6659d692-7713-4bb1-aae0-0228b5b87807.png",
+  
+  },
+  {
+    id: 1,
+    image: "https://res.cloudinary.com/eelqgto5/image/upload/v1786738213/6762f1c1-f4ad-4714-829f-3d0ca594e703.png",
+  
   },
   {
     id: 2,
-    image: img2,
-    title: "Women's Empowerment Program",
-    category: "Women Development",
+    image:" https://res.cloudinary.com/eelqgto5/image/upload/v1786737777/838fc27a-cff4-479f-b95c-ad6038bf97fc.png",
+   
   },
   {
     id: 3,
-    image: img3,
-    title: "Tree Plantation Drive",
-    category: "Environment",
+    image: "https://res.cloudinary.com/eelqgto5/image/upload/v1786737885/b116b8c8-9065-452b-b72e-7b1eb7361ec4.png",
+    
   },
   {
     id: 4,
-    image: img4,
-    title: "Medical Health Camp",
-    category: "Healthcare",
+    image: "https://res.cloudinary.com/eelqgto5/image/upload/v1786737829/73c51660-c83f-4f21-80cc-5416b4007b40.png",
     large: true,
   },
   {
     id: 5,
-    image: img5,
-    title: "Skill Development Workshop",
-    category: "Education",
+    image: "https://res.cloudinary.com/eelqgto5/image/upload/v1786737919/56f62f5f-510d-4643-990a-ce7d67950c5c.png",
+
   },
   {
     id: 6,
-    image: img6,
-    title: "Community Welfare Event",
-    category: "Community",
+    image: "https://res.cloudinary.com/eelqgto5/image/upload/v1786737965/f0856050-b35c-4f98-bf2f-972d83240abb.png",
+
   },
    {
     id: 9,
-    image: img8,
-    title: "Leadership Conference",
-    category: "Leadership",
+    image: "https://res.cloudinary.com/eelqgto5/image/upload/v1786738080/580ed3a0-52af-4e75-8f68-53267a509acc.png",
     large: true,
   },
   {
     id: 7,
-    image: img7,
-    title: "Youth Awareness Program",
-    category: "Youth",
+    image: "https://res.cloudinary.com/eelqgto5/image/upload/v1786738030/0dff3da4-ed0b-44cd-ad26-713806598a85.png",
   },
      {
     id: 8,
-    image: img8,
-    title: "Environment",
-    category: "Environment",
+    image: "https://res.cloudinary.com/eelqgto5/image/upload/v1786738127/aebc1d72-f815-4524-972a-21d6ee7f6817.png",
   },
  
 

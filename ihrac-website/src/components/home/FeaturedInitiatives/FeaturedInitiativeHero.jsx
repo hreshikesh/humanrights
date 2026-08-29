@@ -4,7 +4,6 @@ import { ArrowUpRight } from "lucide-react";
 const FeaturedInitiativeHero = ({ image, category, title, description, number }) => {
   return (
     <motion.a
-      href="#"
       whileHover={{ y: -2 }}
       className="group relative block overflow-hidden rounded-xl sm:rounded-2xl border border-[#0B1F3A]/10 aspect-[4/3] sm:aspect-[16/9]"
     >
@@ -32,15 +31,7 @@ const FeaturedInitiativeHero = ({ image, category, title, description, number })
           {description}
         </p>
 
-        <div className="mt-3 sm:mt-6 inline-flex items-center gap-1.5 text-[11px] sm:text-sm font-bold text-white">
-          <span className="border-b border-white/40 group-hover:border-white transition-colors">
-            Read the initiative
-          </span>
-          <ArrowUpRight
-            size={15}
-            className="transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5"
-          />
-        </div>
+        
       </div>
     </motion.a>
   );

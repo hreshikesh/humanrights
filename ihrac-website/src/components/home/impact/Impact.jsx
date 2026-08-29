@@ -5,7 +5,7 @@ import AchievementStrip from "./AchievementStrip";
 
 const Impact = () => {
   return (
-    <section className="py-24 lg:py-32 bg-slate-50 relative overflow-hidden">
+    <section id="impact" className="py-1 lg:py-2 bg-slate-50 relative overflow-hidden">
       {/* Background Grid Pattern & Ambient Glow */}
       <div className="absolute inset-0 opacity-5 bg-[radial-gradient(circle,#0B1F3A_1px,transparent_1px)] [background-size:32px_32px] pointer-events-none" />
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] bg-[#D4AF37]/5 rounded-full blur-[100px] pointer-events-none" />

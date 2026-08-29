@@ -5,7 +5,7 @@ import { leadershipData } from "./leadershipData";
 
 const Leadership = () => {
   return (
-    <section className="py-12 lg:py-12 bg-slate-50 relative overflow-hidden">
+    <section id="leadership" className="py-12 lg:py-12 bg-slate-50 relative overflow-hidden">
       {/* Ambient Pattern & Glow Background */}
       <div className="absolute inset-0 opacity-5 bg-[radial-gradient(circle,#0B1F3A_1px,transparent_1px)] [background-size:32px_32px] pointer-events-none" />
       <div className="absolute top-1/3 right-0 w-[450px] h-[450px] bg-[#D4AF37]/5 rounded-full blur-[120px] pointer-events-none" />

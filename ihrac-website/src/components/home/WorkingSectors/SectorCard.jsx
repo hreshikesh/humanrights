@@ -1,60 +1,27 @@
-import { motion } from "framer-motion";
-import { ArrowRight } from "lucide-react";
+// SectorCard.jsx
+import React from 'react';
 
-const SectorCard = ({
-  icon: Icon,
-  title,
-  description,
-  index,
-}) => {
+const SectorCard = ({ icon: Icon, title, description }) => {
   return (
-    <motion.div
-      initial={{ opacity: 0, y: 20 }}
-      whileInView={{ opacity: 1, y: 0 }}
-      viewport={{ once: true }}
-      transition={{ duration: 0.4, delay: index * 0.05 }}
-      whileHover={{
-        y: -6,
-        scale: 1.01,
-      }}
-      whileTap={{
-        y: -6,
-        scale: 1.01,
-      }}
-      className="group relative rounded-2xl sm:rounded-3xl bg-white border border-slate-200/80 p-5 sm:p-8 shadow-sm hover:shadow-xl active:shadow-xl hover:border-[#D4AF37]/50 active:border-[#D4AF37]/50 transition-all duration-300 overflow-hidden flex flex-col justify-between"
-    >
-      {/* Top Gold Border Accent Line */}
-      <div className="absolute top-0 left-0 h-1 w-0 bg-[#D4AF37] group-hover:w-full group-active:w-full transition-all duration-500" />
+    <div className="group relative h-full w-[280px] sm:w-[320px] shrink-0 overflow-hidden rounded-2xl border border-slate-200 bg-white p-4 sm:p-5 transition-all duration-300 hover:border-[#D4AF37]/50 hover:shadow-lg select-none">
+      {/* Left accent strip on hover */}
+      <div className="absolute left-0 top-0 h-full w-1 bg-transparent group-hover:bg-[#D4AF37] transition-all duration-300" />
 
-      <div>
-        {/* Icon Container */}
-        <div className="w-12 h-12 sm:w-16 sm:h-16 rounded-xl sm:rounded-2xl bg-[#0B1F3A]/10 flex items-center justify-center mb-4 sm:mb-6 group-hover:bg-[#0B1F3A] group-active:bg-[#0B1F3A] transition-colors duration-300 shadow-sm">
-          <Icon
-            size={22}
-            className="text-[#0B1F3A] group-hover:text-[#D4AF37] group-active:text-[#D4AF37] transition-colors duration-300 sm:w-[30px] sm:h-[30px]"
-          />
+      <div className="flex items-start gap-3 sm:gap-4">
+        <div className="flex h-10 w-10 sm:h-12 sm:w-12 shrink-0 items-center justify-center rounded-xl bg-[#0B1F3A]/10 text-[#0B1F3A] group-hover:bg-[#0B1F3A] group-hover:text-[#D4AF37] transition-colors duration-300">
+          <Icon className="h-5 w-5 sm:h-6 sm:w-6" />
         </div>
 
-        {/* Title */}
-        <h3 className="text-base sm:text-xl lg:text-2xl font-bold text-[#0B1F3A] mb-2 sm:mb-4 tracking-tight leading-snug">
-          {title}
-        </h3>
-
-        {/* Description */}
-        <p className="text-slate-600 text-xs sm:text-sm lg:text-base leading-relaxed line-clamp-3 sm:line-clamp-none">
-          {description}
-        </p>
+        <div className="min-w-0">
+          <h3 className="text-sm sm:text-[15px] font-bold leading-tight text-[#0B1F3A]">
+            {title}
+          </h3>
+          <p className="mt-1 text-[11px] sm:text-xs leading-5 text-slate-500 line-clamp-2">
+            {description}
+          </p>
+        </div>
       </div>
-
-      {/* Action Button */}
-      <button className="mt-5 sm:mt-8 inline-flex items-center gap-1.5 sm:gap-2 font-bold text-xs sm:text-sm text-[#0B1F3A] group-hover:text-[#D4AF37] group-active:text-[#D4AF37] transition-colors">
-        <span>Learn More</span>
-        <ArrowRight
-          size={16}
-          className="transition-transform group-hover:translate-x-1.5 group-active:translate-x-1.5"
-        />
-      </button>
-    </motion.div>
+    </div>
   );
 };
 

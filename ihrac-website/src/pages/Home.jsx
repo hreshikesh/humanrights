@@ -5,11 +5,10 @@ import Hero from "../components/home/hero/Hero";
 import Impact from "../components/home/impact/Impact";
 import Leadership from "../components/home/leadership/Leadership";
 import PhotoGallery from "../components/home/photogallery/PhotoGallery";
-import VideoCard from "../components/home/videogallery/VideoCard";
+import Contact from "../components/home/contact/Contact";
 import VideoGallery from "../components/home/videogallery/VideoGallery";
 import WorkingSectors from "../components/home/WorkingSectors/WorkingSectors";
-import Videos from "./Videos";
-
+import TeamSection from "../components/home/team/TeamSection";
 const Home = () => {
     return (
         <>
@@ -17,10 +16,12 @@ const Home = () => {
         <AboutPreview/>
         <Impact/>
         <Leadership/>
+        <TeamSection/>
         <WorkingSectors/>
         <FeaturedInitiatives/>
         <PhotoGallery/>
         <VideoGallery/>
+        <Contact/>
       {/* <LatestEvents/> */}
         </>
     );
