@@ -1,39 +1,116 @@
-// galleryPageData.js
-export const spiralImages = [
-  { src: "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?q=80&w=800&auto=format&fit=crop", alt: "Environmental drive" },
-  { src: "https://images.unsplash.com/photo-1584515979956-d9f6e5d09982?q=80&w=800&auto=format&fit=crop", alt: "Healthcare camp" },
-  { src: "https://images.unsplash.com/photo-1509062522246-3755977927d7?q=80&w=800&auto=format&fit=crop", alt: "Digital literacy" },
-  { src: "https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?q=80&w=800&auto=format&fit=crop", alt: "Food distribution" },
-  { src: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=800&auto=format&fit=crop", alt: "Women empowerment" },
-  { src: "https://images.unsplash.com/photo-1509391365360-2e959784a276?q=80&w=800&auto=format&fit=crop", alt: "Solar installation" },
-  { src: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?q=80&w=800&auto=format&fit=crop", alt: "Eye camp" },
-  { src: "https://images.unsplash.com/photo-1531482615713-2afd69097998?q=80&w=800&auto=format&fit=crop", alt: "Youth summit" },
-  { src: "https://images.unsplash.com/photo-1526976668912-1a811878dd37?q=80&w=800&auto=format&fit=crop", alt: "Tree plantation" },
-  { src: "https://images.unsplash.com/photo-1593113646773-028c64a8f1b8?q=80&w=800&auto=format&fit=crop", alt: "School program" },
-  { src: "https://images.unsplash.com/photo-1607113256158-56a934936ef1?q=80&w=800&auto=format&fit=crop", alt: "Community meet" },
-  { src: "https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?q=80&w=800&auto=format&fit=crop", alt: "Volunteers" },
+// AUTO-GENERATED — run: node scripts/fetchCloudinaryImages.js
+// Folder: images
+// Count: 86
+
+export const independenceDayImages = [
+  "https://res.cloudinary.com/pmmjjtib/image/upload/v1788156100/WhatsApp_Image_2026-08-31_at_11.12.39_AM.jpg",
+  "https://res.cloudinary.com/pmmjjtib/image/upload/v1788156100/WhatsApp_Image_2026-08-31_at_11.12.39_AM_1.jpg",
+  "https://res.cloudinary.com/pmmjjtib/image/upload/v1788155376/WhatsApp_Image_2026-08-31_at_11.12.40_AM.jpg",
+  "https://res.cloudinary.com/pmmjjtib/image/upload/v1788156101/WhatsApp_Image_2026-08-31_at_11.12.40_AM_1.jpg",
+  "https://res.cloudinary.com/pmmjjtib/image/upload/v1788156101/WhatsApp_Image_2026-08-31_at_11.12.40_AM_2.jpg",
+  "https://res.cloudinary.com/pmmjjtib/image/upload/v1788155377/WhatsApp_Image_2026-08-31_at_11.12.41_AM.jpg",
+  "https://res.cloudinary.com/pmmjjtib/image/upload/v1788155376/WhatsApp_Image_2026-08-31_at_11.12.41_AM_1.jpg",
+  "https://res.cloudinary.com/pmmjjtib/image/upload/v1788156102/WhatsApp_Image_2026-08-31_at_11.12.41_AM_2.jpg",
+  "https://res.cloudinary.com/pmmjjtib/image/upload/v1788156102/WhatsApp_Image_2026-08-31_at_11.12.41_AM_3.jpg",
+  "https://res.cloudinary.com/pmmjjtib/image/upload/v1788156103/WhatsApp_Image_2026-08-31_at_11.12.42_AM.jpg",
+  "https://res.cloudinary.com/pmmjjtib/image/upload/v1788156104/WhatsApp_Image_2026-08-31_at_11.12.42_AM_1.jpg",
+  "https://res.cloudinary.com/pmmjjtib/image/upload/v1788156103/WhatsApp_Image_2026-08-31_at_11.12.42_AM_2.jpg",
+  "https://res.cloudinary.com/pmmjjtib/image/upload/v1788156104/WhatsApp_Image_2026-08-31_at_11.12.43_AM.jpg",
+  "https://res.cloudinary.com/pmmjjtib/image/upload/v1788156104/WhatsApp_Image_2026-08-31_at_11.12.43_AM_1.jpg",
+  "https://res.cloudinary.com/pmmjjtib/image/upload/v1788156104/WhatsApp_Image_2026-08-31_at_11.12.43_AM_2.jpg",
+  "https://res.cloudinary.com/pmmjjtib/image/upload/v1788156106/WhatsApp_Image_2026-08-31_at_11.12.44_AM.jpg",
+  "https://res.cloudinary.com/pmmjjtib/image/upload/v1788156105/WhatsApp_Image_2026-08-31_at_11.12.44_AM_1.jpg",
+  "https://res.cloudinary.com/pmmjjtib/image/upload/v1788156105/WhatsApp_Image_2026-08-31_at_11.12.44_AM_2.jpg",
+  "https://res.cloudinary.com/pmmjjtib/image/upload/v1788156105/WhatsApp_Image_2026-08-31_at_11.12.44_AM_3.jpg",
+  "https://res.cloudinary.com/pmmjjtib/image/upload/v1788156107/WhatsApp_Image_2026-08-31_at_11.12.45_AM.jpg",
+  "https://res.cloudinary.com/pmmjjtib/image/upload/v1788156106/WhatsApp_Image_2026-08-31_at_11.12.45_AM_1.jpg",
+  "https://res.cloudinary.com/pmmjjtib/image/upload/v1788156106/WhatsApp_Image_2026-08-31_at_11.12.45_AM_2.jpg",
+  "https://res.cloudinary.com/pmmjjtib/image/upload/v1788156107/WhatsApp_Image_2026-08-31_at_11.12.45_AM_3.jpg",
+  "https://res.cloudinary.com/pmmjjtib/image/upload/v1788156108/WhatsApp_Image_2026-08-31_at_11.12.46_AM.jpg",
+  "https://res.cloudinary.com/pmmjjtib/image/upload/v1788155377/WhatsApp_Image_2026-08-31_at_11.12.46_AM_1.jpg",
+  "https://res.cloudinary.com/pmmjjtib/image/upload/v1788156108/WhatsApp_Image_2026-08-31_at_11.12.46_AM_2.jpg",
+  "https://res.cloudinary.com/pmmjjtib/image/upload/v1788156108/WhatsApp_Image_2026-08-31_at_11.12.46_AM_3.jpg",
+  "https://res.cloudinary.com/pmmjjtib/image/upload/v1788156109/WhatsApp_Image_2026-08-31_at_11.12.47_AM.jpg",
+  "https://res.cloudinary.com/pmmjjtib/image/upload/v1788156108/WhatsApp_Image_2026-08-31_at_11.12.47_AM_1.jpg",
+  "https://res.cloudinary.com/pmmjjtib/image/upload/v1788156109/WhatsApp_Image_2026-08-31_at_11.12.47_AM_2.jpg",
+  "https://res.cloudinary.com/pmmjjtib/image/upload/v1788156110/WhatsApp_Image_2026-08-31_at_11.12.48_AM.jpg",
+  "https://res.cloudinary.com/pmmjjtib/image/upload/v1788156109/WhatsApp_Image_2026-08-31_at_11.12.48_AM_1.jpg",
+  "https://res.cloudinary.com/pmmjjtib/image/upload/v1788155378/WhatsApp_Image_2026-08-31_at_11.12.49_AM.jpg",
+  "https://res.cloudinary.com/pmmjjtib/image/upload/v1788156110/WhatsApp_Image_2026-08-31_at_11.12.49_AM_1.jpg",
+  "https://res.cloudinary.com/pmmjjtib/image/upload/v1788156111/WhatsApp_Image_2026-08-31_at_11.12.50_AM.jpg",
+  "https://res.cloudinary.com/pmmjjtib/image/upload/v1788156110/WhatsApp_Image_2026-08-31_at_11.12.50_AM_1.jpg",
+  "https://res.cloudinary.com/pmmjjtib/image/upload/v1788156111/WhatsApp_Image_2026-08-31_at_11.12.50_AM_2.jpg",
+  "https://res.cloudinary.com/pmmjjtib/image/upload/v1788156111/WhatsApp_Image_2026-08-31_at_11.12.50_AM_3.jpg",
+  "https://res.cloudinary.com/pmmjjtib/image/upload/v1788156112/WhatsApp_Image_2026-08-31_at_11.12.51_AM.jpg",
+  "https://res.cloudinary.com/pmmjjtib/image/upload/v1788155379/WhatsApp_Image_2026-08-31_at_11.12.51_AM_1.jpg",
+  "https://res.cloudinary.com/pmmjjtib/image/upload/v1788156113/WhatsApp_Image_2026-08-31_at_11.12.52_AM.jpg",
+  "https://res.cloudinary.com/pmmjjtib/image/upload/v1788156112/WhatsApp_Image_2026-08-31_at_11.12.52_AM_1.jpg",
+  "https://res.cloudinary.com/pmmjjtib/image/upload/v1788156113/WhatsApp_Image_2026-08-31_at_11.12.53_AM.jpg",
+  "https://res.cloudinary.com/pmmjjtib/image/upload/v1788156113/WhatsApp_Image_2026-08-31_at_11.12.53_AM_2.jpg",
+  "https://res.cloudinary.com/pmmjjtib/image/upload/v1788155362/WhatsApp_Image_2026-08-31_at_11.12.53_AM_3.jpg",
+  "https://res.cloudinary.com/pmmjjtib/image/upload/v1788156090/WhatsApp_Image_2026-08-31_at_11.12.54_AM.jpg",
+  "https://res.cloudinary.com/pmmjjtib/image/upload/v1788156090/WhatsApp_Image_2026-08-31_at_11.12.54_AM_1.jpg",
+  "https://res.cloudinary.com/pmmjjtib/image/upload/v1788155362/WhatsApp_Image_2026-08-31_at_11.12.54_AM_2.jpg",
+  "https://res.cloudinary.com/pmmjjtib/image/upload/v1788155362/WhatsApp_Image_2026-08-31_at_11.12.55_AM.jpg",
+  "https://res.cloudinary.com/pmmjjtib/image/upload/v1788156090/WhatsApp_Image_2026-08-31_at_11.12.55_AM_1.jpg",
+  "https://res.cloudinary.com/pmmjjtib/image/upload/v1788156091/WhatsApp_Image_2026-08-31_at_11.12.55_AM_2.jpg",
+  "https://res.cloudinary.com/pmmjjtib/image/upload/v1788156091/WhatsApp_Image_2026-08-31_at_11.12.56_AM.jpg",
+  "https://res.cloudinary.com/pmmjjtib/image/upload/v1788156091/WhatsApp_Image_2026-08-31_at_11.12.56_AM_1.jpg",
+  "https://res.cloudinary.com/pmmjjtib/image/upload/v1788156092/WhatsApp_Image_2026-08-31_at_11.12.56_AM_2.jpg",
+  "https://res.cloudinary.com/pmmjjtib/image/upload/v1788155363/WhatsApp_Image_2026-08-31_at_11.12.57_AM.jpg",
+  "https://res.cloudinary.com/pmmjjtib/image/upload/v1788156092/WhatsApp_Image_2026-08-31_at_11.12.57_AM_1.jpg",
+  "https://res.cloudinary.com/pmmjjtib/image/upload/v1788156093/WhatsApp_Image_2026-08-31_at_11.12.57_AM_2.jpg",
+  "https://res.cloudinary.com/pmmjjtib/image/upload/v1788156092/WhatsApp_Image_2026-08-31_at_11.12.57_AM_3.jpg",
+  "https://res.cloudinary.com/pmmjjtib/image/upload/v1788156093/WhatsApp_Image_2026-08-31_at_11.12.58_AM.jpg",
+  "https://res.cloudinary.com/pmmjjtib/image/upload/v1788156093/WhatsApp_Image_2026-08-31_at_11.12.58_AM_1.jpg",
+  "https://res.cloudinary.com/pmmjjtib/image/upload/v1788156093/WhatsApp_Image_2026-08-31_at_11.12.58_AM_2.jpg",
+  "https://res.cloudinary.com/pmmjjtib/image/upload/v1788156094/WhatsApp_Image_2026-08-31_at_11.12.59_AM.jpg",
+  "https://res.cloudinary.com/pmmjjtib/image/upload/v1788156093/WhatsApp_Image_2026-08-31_at_11.12.59_AM_1.jpg",
+  "https://res.cloudinary.com/pmmjjtib/image/upload/v1788156094/WhatsApp_Image_2026-08-31_at_11.12.59_AM_2.jpg",
+  "https://res.cloudinary.com/pmmjjtib/image/upload/v1788155371/WhatsApp_Image_2026-08-31_at_11.12.59_AM_3.jpg",
+  "https://res.cloudinary.com/pmmjjtib/image/upload/v1788156095/WhatsApp_Image_2026-08-31_at_11.13.00_AM.jpg",
+  "https://res.cloudinary.com/pmmjjtib/image/upload/v1788156094/WhatsApp_Image_2026-08-31_at_11.13.00_AM_1.jpg",
+  "https://res.cloudinary.com/pmmjjtib/image/upload/v1788156095/WhatsApp_Image_2026-08-31_at_11.13.00_AM_2.jpg",
+  "https://res.cloudinary.com/pmmjjtib/image/upload/v1788156095/WhatsApp_Image_2026-08-31_at_11.13.01_AM.jpg",
+  "https://res.cloudinary.com/pmmjjtib/image/upload/v1788155371/WhatsApp_Image_2026-08-31_at_11.13.01_AM_1.jpg",
+  "https://res.cloudinary.com/pmmjjtib/image/upload/v1788156095/WhatsApp_Image_2026-08-31_at_11.13.01_AM_2.jpg",
+  "https://res.cloudinary.com/pmmjjtib/image/upload/v1788156095/WhatsApp_Image_2026-08-31_at_11.13.01_AM_3.jpg",
+  "https://res.cloudinary.com/pmmjjtib/image/upload/v1788156096/WhatsApp_Image_2026-08-31_at_11.13.02_AM.jpg",
+  "https://res.cloudinary.com/pmmjjtib/image/upload/v1788156096/WhatsApp_Image_2026-08-31_at_11.13.02_AM_1.jpg",
+  "https://res.cloudinary.com/pmmjjtib/image/upload/v1788156096/WhatsApp_Image_2026-08-31_at_11.13.02_AM_2.jpg",
+  "https://res.cloudinary.com/pmmjjtib/image/upload/v1788156097/WhatsApp_Image_2026-08-31_at_11.13.03_AM.jpg",
+  "https://res.cloudinary.com/pmmjjtib/image/upload/v1788156096/WhatsApp_Image_2026-08-31_at_11.13.03_AM_1.jpg",
+  "https://res.cloudinary.com/pmmjjtib/image/upload/v1788156098/WhatsApp_Image_2026-08-31_at_11.13.03_AM_2.jpg",
+  "https://res.cloudinary.com/pmmjjtib/image/upload/v1788156098/WhatsApp_Image_2026-08-31_at_11.13.04_AM.jpg",
+  "https://res.cloudinary.com/pmmjjtib/image/upload/v1788156098/WhatsApp_Image_2026-08-31_at_11.13.04_AM_1.jpg",
+  "https://res.cloudinary.com/pmmjjtib/image/upload/v1788156098/WhatsApp_Image_2026-08-31_at_11.13.04_AM_2.jpg",
+  "https://res.cloudinary.com/pmmjjtib/image/upload/v1788155375/WhatsApp_Image_2026-08-31_at_11.13.05_AM.jpg",
+  "https://res.cloudinary.com/pmmjjtib/image/upload/v1788156098/WhatsApp_Image_2026-08-31_at_11.13.05_AM_1.jpg",
+  "https://res.cloudinary.com/pmmjjtib/image/upload/v1788156099/WhatsApp_Image_2026-08-31_at_11.13.05_AM_2.jpg",
+  "https://res.cloudinary.com/pmmjjtib/image/upload/v1788156100/WhatsApp_Image_2026-08-31_at_11.13.06_AM.jpg",
+  "https://res.cloudinary.com/pmmjjtib/image/upload/v1788156099/WhatsApp_Image_2026-08-31_at_11.13.06_AM_1.jpg"
 ];
 
-// Dome gallery images (more images = fuller dome)
-export const domeImages = [
-  { src: "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?q=80&w=800&auto=format&fit=crop", alt: "Environment mission" },
-  { src: "https://images.unsplash.com/photo-1584515979956-d9f6e5d09982?q=80&w=800&auto=format&fit=crop", alt: "Healthcare camp" },
-  { src: "https://images.unsplash.com/photo-1509062522246-3755977927d7?q=80&w=800&auto=format&fit=crop", alt: "Education drive" },
-  { src: "https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?q=80&w=800&auto=format&fit=crop", alt: "Food distribution" },
-  { src: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=800&auto=format&fit=crop", alt: "Women guild" },
-  { src: "https://images.unsplash.com/photo-1509391365360-2e959784a276?q=80&w=800&auto=format&fit=crop", alt: "Solar hamlet" },
-  { src: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?q=80&w=800&auto=format&fit=crop", alt: "Elderly care" },
-  { src: "https://images.unsplash.com/photo-1531482615713-2afd69097998?q=80&w=800&auto=format&fit=crop", alt: "Youth leadership" },
-  { src: "https://images.unsplash.com/photo-1526976668912-1a811878dd37?q=80&w=800&auto=format&fit=crop", alt: "Plantation" },
-  { src: "https://images.unsplash.com/photo-1593113646773-028c64a8f1b8?q=80&w=800&auto=format&fit=crop", alt: "School program" },
-  { src: "https://images.unsplash.com/photo-1607113256158-56a934936ef1?q=80&w=800&auto=format&fit=crop", alt: "Community" },
-  { src: "https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?q=80&w=800&auto=format&fit=crop", alt: "Volunteers" },
-  { src: "https://images.unsplash.com/photo-1560523159-4a9692d222f9?q=80&w=800&auto=format&fit=crop", alt: "Impact" },
-  { src: "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?q=80&w=800&auto=format&fit=crop", alt: "Field visit" },
-  { src: "https://images.unsplash.com/photo-1541971297127-c4e6f5ee1f9f?q=80&w=800&auto=format&fit=crop", alt: "Sanitation" },
-  { src: "https://images.unsplash.com/photo-1544027993-37dbfe43562a?q=80&w=800&auto=format&fit=crop", alt: "Children workshop" },
-  { src: "https://images.unsplash.com/photo-1497486751825-1233686d5d80?q=80&w=800&auto=format&fit=crop", alt: "Water access" },
-  { src: "https://images.unsplash.com/photo-1521791136064-7986c2920216?q=80&w=800&auto=format&fit=crop", alt: "Team huddle" },
-  { src: "https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?q=80&w=800&auto=format&fit=crop", alt: "Learning" },
-  { src: "https://images.unsplash.com/photo-1519452575417-564c1401ecc0?q=80&w=800&auto=format&fit=crop", alt: "Rural India" },
-];
+export const getThumb = (url) => {
+  if (
+    typeof url === "string" &&
+    url.includes("res.cloudinary.com") &&
+    url.includes("/image/upload/")
+  ) {
+    return url.replace(
+      "/image/upload/",
+      "/image/upload/f_auto,q_auto:eco,w_800,c_fill,g_auto/"
+    );
+  }
+  return url;
+};
+
+// Returns N randomly sampled images from the main list (default: 30 images)
+export const getRandomSpiralImages = (count = 30) => {
+  return [...independenceDayImages]
+    .sort(() => 0.5 - Math.random())
+    .slice(0, count);
+};
+
+// Shuffled version of all images for spiral gallery use
+export const spiralImages = getRandomSpiralImages(independenceDayImages.length);

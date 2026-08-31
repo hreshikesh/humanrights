@@ -1,21 +1,38 @@
+import { lazy, Suspense } from "react";
 import { Routes, Route } from "react-router-dom";
 
 import Layout from "../components/layout/Layout";
+import ScrollToTop from "../components/common/ScrollToTop";
 
-import Home from "../pages/Home";
+// Page Imports with Lazy Loading for optimal performance
+const Home = lazy(() => import("../pages/Home"));
+const ImageGalleryPage = lazy(() => import("../pages/ImageGalleryPage"));
+const VideoGalleryPage = lazy(() => import("../pages/VideoGalleryPage"));
+const NotFound = lazy(() => import("../pages/NotFound"));
 
-import ImageGalleryPage from "../pages/ImageGalleryPage";
-import VideoGalleryPage from "../pages/VideoGalleryPage";
+// Fallback loader while route chunks are fetching
+const PageLoader = () => (
+  <div className="min-h-screen bg-slate-900 flex items-center justify-center text-white">
+    <div className="w-10 h-10 border-4 border-[#D4AF37] border-t-transparent rounded-full animate-spin" />
+  </div>
+);
+
 const AppRoutes = () => {
   return (
-    <Routes>
-      <Route element={<Layout />}>
-        <Route path="/" element={<Home />} />
-  
-        <Route path="/media-images" element={<ImageGalleryPage/>}/>
-        <Route path="/media-videos" element={<VideoGalleryPage/>}/>
-      </Route>
-    </Routes>
+    <>
+      <ScrollToTop />
+      <Suspense fallback={<PageLoader />}>
+        <Routes>
+          <Route element={<Layout />}>
+            <Route path="/" element={<Home />} />
+            <Route path="/media-images" element={<ImageGalleryPage />} />
+            <Route path="/media-videos" element={<VideoGalleryPage />} />
+            {/* Catch-all route for unhandled paths */}
+            <Route path="*" element={<NotFound />} />
+          </Route>
+        </Routes>
+      </Suspense>
+    </>
   );
 };
 

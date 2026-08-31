@@ -21,11 +21,11 @@ export const navLinks = [
     dropdown: [
       { 
         title: "Photo Gallery", 
-        path: "/#photoGallery" 
+        path: "/media-images" 
       },
       { 
         title: "Videos", 
-        path: "/#videoGallery" 
+        path: "/media-videos" 
       },
     ],
   },

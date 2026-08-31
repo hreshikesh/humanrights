@@ -10,6 +10,8 @@ import VideoGallery from "../components/home/videogallery/VideoGallery";
 import WorkingSectors from "../components/home/WorkingSectors/WorkingSectors";
 import TeamSection from "../components/home/team/TeamSection";
 import Human3DSection from "../components/home/human3D/Human3DSection";
+import Certificate from "../components/home/certificate/Certificate";
+import MemberSection from "../components/home/members/MemberSection";
 const Home = () => {
     return (
         <>
@@ -18,6 +20,8 @@ const Home = () => {
         <Impact/>
         <Leadership/>
         <TeamSection/>
+        <MemberSection/>
+        <Certificate/>
         <Human3DSection/>
         <WorkingSectors/>
         <FeaturedInitiatives/>

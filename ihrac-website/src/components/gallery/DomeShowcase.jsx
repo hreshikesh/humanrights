@@ -2,7 +2,7 @@
 import { motion } from "framer-motion";
 import { Globe2, Hand, HandFist, ArrowRight } from "lucide-react";
 import DomeGallery from "./DomeGallery";
-import { domeImages } from "./galleryPageData";
+import { independenceDayImages } from "./galleryPageData";
 
 const DomeShowcase = () => {
   return (
@@ -65,7 +65,7 @@ const DomeShowcase = () => {
           <div className="absolute bottom-4 right-4 z-30 w-10 h-10 border-b-2 border-r-2 border-[#D4AF37] rounded-br-lg pointer-events-none" />
 
           <DomeGallery
-            images={domeImages}
+            images={independenceDayImages}
             fit={0.65}
             maxVerticalRotationDeg={5}
             dragSensitivity={22}
