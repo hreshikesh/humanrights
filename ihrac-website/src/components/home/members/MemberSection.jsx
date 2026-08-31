@@ -62,7 +62,7 @@ const MemberSection = () => {
             Mobile:  4 columns  → grid-cols-4
             Desktop: 6 columns  → lg:grid-cols-6
           */}
-          <div className="mt-10 grid grid-cols-10 gap-2 sm:mt-14 sm:gap-3 lg:grid-cols-12 lg:gap-4">
+          <div className="mt-10 grid grid-cols-10 gap-2 sm:mt-14 sm:gap-3 lg:grid-cols-12 lg:gap-4 scroll-mt-24">
             {teamMembers.map((member, i) => (
               <motion.div
                 key={member.id}

@@ -29,7 +29,7 @@ const FeaturedInitiatives = () => {
   const rows = groupInitiatives(initiatives);
 
   return (
-    <section id="initiatives" className="relative bg-white py-16 sm:py-24 lg:py-28">
+    <section id="initiatives" className="relative bg-white py-16 sm:py-24 lg:py-28 scroll-mt-24">
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
 
         <div className="mb-10 sm:mb-14">

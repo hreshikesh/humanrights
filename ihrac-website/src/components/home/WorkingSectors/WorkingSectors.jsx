@@ -16,7 +16,7 @@ const WorkingSectors = () => {
   return (
     <section
       id="workingSectors"
-      className="relative py-20 lg:py-32 overflow-hidden bg-slate-50"
+      className="relative py-20 lg:py-32 overflow-hidden bg-slate-50 scroll-mt-24"
     >
       {/* Ambient Background Glows */}
       <div className="absolute top-0 left-0 w-[500px] h-[500px] bg-[#D4AF37]/10 blur-[140px] rounded-full pointer-events-none" />

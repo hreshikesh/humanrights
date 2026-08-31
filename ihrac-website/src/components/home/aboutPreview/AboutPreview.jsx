@@ -4,7 +4,7 @@ import Quote from "./Quote";
 
 const AboutPreview = () => {
   return (
-    <section id="about" className="py-24 lg:py-20 bg-[#F8FAFC] relative overflow-hidden">
+    <section id="about" className="py-24 lg:py-20 bg-[#F8FAFC] relative overflow-hidden scroll-mt-24">
       {/* Subtle World Map / Pattern Background with 5% opacity */}
       <div className="absolute inset-0 bg-[radial-gradient(#0B1F3A_1px,transparent_1px)] [background-size:24px_24px] opacity-5 pointer-events-none" />
 

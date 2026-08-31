@@ -50,15 +50,15 @@ const HeroContent = () => {
           className="mt-6 sm:mt-8 flex flex-col sm:flex-row gap-3.5"
         >
           <Link
-            to="/activities"
+            to="/#initiatives"
             className="bg-[#D4AF37] hover:bg-[#c29e30] text-[#0B1F3A] px-6 py-3.5 rounded-md font-bold uppercase tracking-wider text-xs sm:text-sm flex items-center justify-center gap-2 shadow-lg transition-all duration-300 group"
           >
-            Explore Activities
+            Our Mission
             <ArrowRight size={16} className="group-hover:translate-x-1 transition-transform" />
           </Link>
 
           <Link
-            to="/about"
+            to="/#about"
             className="border-2 border-white/80 text-white hover:bg-white hover:text-[#0B1F3A] px-6 py-3.5 rounded-md font-bold uppercase tracking-wider text-xs sm:text-sm transition-all duration-300 flex items-center justify-center gap-2 backdrop-blur-sm"
           >
             About Council

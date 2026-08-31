@@ -38,7 +38,7 @@ const Contact = () => {
   };
 
   return (
-    <section id="contact" className="relative bg-slate-50 py-20 lg:py-28 overflow-hidden">
+    <section id="contact" className="relative bg-slate-50 py-20 lg:py-28 overflow-hidden scroll-mt-24">
       {/* Accent design highlights */}
       <div className="pointer-events-none absolute right-0 top-0 h-64 w-64 bg-[#D4AF37]/5 blur-[80px]" />
       <div className="pointer-events-none absolute left-0 bottom-0 h-64 w-64 bg-[#0B1F3A]/5 blur-[80px]" />
