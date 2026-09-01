@@ -1,13 +1,10 @@
 export const teamMembers = [
   "https://res.cloudinary.com/pmmjjtib/image/upload/v1788153836/WhatsApp_Image_2026-08-30_at_12.04.42_AM_3.jpg",
   "https://res.cloudinary.com/pmmjjtib/image/upload/v1788153836/WhatsApp_Image_2026-08-30_at_12.04.42_AM.jpg",
- 
   "https://res.cloudinary.com/pmmjjtib/image/upload/v1788153837/WhatsApp_Image_2026-08-30_at_12.04.43_AM.jpg",
   "https://res.cloudinary.com/pmmjjtib/image/upload/v1788153834/WhatsApp_Image_2026-08-30_at_12.04.39_AM.jpg",
   "https://res.cloudinary.com/pmmjjtib/image/upload/v1788153834/WhatsApp_Image_2026-08-30_at_12.04.40_AM_2.jpg",
-  "https://res.cloudinary.com/pmmjjtib/image/upload/v1788153835/WhatsApp_Image_2026-08-30_at_12.04.40_AM.jpg",
-  "https://res.cloudinary.com/pmmjjtib/image/upload/v1788153835/WhatsApp_Image_2026-08-30_at_12.04.41_AM_1.jpg",
-  "https://res.cloudinary.com/pmmjjtib/image/upload/v1788153833/WhatsApp_Image_2026-08-30_at_12.04.38_AM_1.jpg",
+ 
   "https://res.cloudinary.com/pmmjjtib/image/upload/v1788153833/WhatsApp_Image_2026-08-30_at_12.04.38_AM.jpg",
   "https://res.cloudinary.com/pmmjjtib/image/upload/v1788153834/WhatsApp_Image_2026-08-30_at_12.04.39_AM_3.jpg",
   "https://res.cloudinary.com/pmmjjtib/image/upload/v1788153834/WhatsApp_Image_2026-08-30_at_12.04.39_AM_2.jpg",
@@ -54,5 +51,5 @@ export const teamMembers = [
   "https://res.cloudinary.com/pmmjjtib/image/upload/v1788153829/WhatsApp_Image_2026-08-30_at_12.04.36_AM.jpg",
   "https://res.cloudinary.com/pmmjjtib/image/upload/v1788153810/WhatsApp_Image_2026-08-30_at_12.04.35_AM.jpg",
   "https://res.cloudinary.com/pmmjjtib/image/upload/v1788153811/Screenshot_2026-08-31_104133.png",
-  "https://res.cloudinary.com/pmmjjtib/image/upload/v1788153811/Screenshot_2026-08-31_104138.png",
+  "https://res.cloudinary.com/pmmjjtib/image/upload/v1788153811/Screenshot_2026-08-31_104138.png"
 ];
