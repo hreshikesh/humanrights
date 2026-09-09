@@ -16,19 +16,10 @@ export const navLinks = [
     title: "Working Sectors",
     path: "/#workingSectors",
   },
-  {
-    title: "Media",
-    dropdown: [
-      { 
-        title: "Photo Gallery", 
-        path: "/media-images" 
-      },
-      { 
-        title: "Videos", 
-        path: "/media-videos" 
-      },
-    ],
-  },
+ {
+  title: "Media",
+  path: "/#photoGallery",
+},
   {
     title: "Initiatives",
     path: "/#initiatives",

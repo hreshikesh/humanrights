@@ -6,8 +6,6 @@ import ScrollToTop from "../components/common/ScrollToTop";
 
 // Page Imports with Lazy Loading for optimal performance
 const Home = lazy(() => import("../pages/Home"));
-const ImageGalleryPage = lazy(() => import("../pages/ImageGalleryPage"));
-const VideoGalleryPage = lazy(() => import("../pages/VideoGalleryPage"));
 const NotFound = lazy(() => import("../pages/NotFound"));
 
 // Fallback loader while route chunks are fetching
@@ -25,8 +23,6 @@ const AppRoutes = () => {
         <Routes>
           <Route element={<Layout />}>
             <Route path="/" element={<Home />} />
-            <Route path="/media-images" element={<ImageGalleryPage />} />
-            <Route path="/media-videos" element={<VideoGalleryPage />} />
             {/* Catch-all route for unhandled paths */}
             <Route path="*" element={<NotFound />} />
           </Route>

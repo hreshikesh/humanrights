@@ -18,7 +18,20 @@ const IndependenceDayVideos = ({ videos = independenceDayVideos }) => {
   const touchX = useRef(null);
 
   const len = videos?.length || 0;
+// Preload all video thumbnails so carousel navigation stays smooth
+useEffect(() => {
+  videos?.forEach((v) => {
+    const src = typeof v === "string" ? v : v.src;
+    const poster =
+      (typeof v === "object" && v.poster) ||
+      getVideoPoster(src);
 
+    if (poster) {
+      const img = new Image();
+      img.src = poster;
+    }
+  });
+}, [videos]);
   const go = useCallback(
     (dir) => {
       if (!len) return;
@@ -150,18 +163,22 @@ const IndependenceDayVideos = ({ videos = independenceDayVideos }) => {
                   const isCenter = slot === 1;
 
                   return (
-                    <motion.button
-                      key={item.index}
-                      type="button"
-                      layout
-                      initial={{ opacity: 0, scale: 0.8 }}
+                  <motion.button
+  key={item.index}
+  type="button"
+  initial={{ opacity: 0, scale: 0.8 }}
                       animate={{
                         opacity: isCenter ? 1 : 0.4,
                         scale: isCenter ? 1 : 0.85,
                         zIndex: isCenter ? 10 : 0,
                       }}
                       exit={{ opacity: 0, scale: 0.8 }}
-                      transition={{ type: "spring", stiffness: 300, damping: 30 }}
+                      transition={{
+  type: "spring",
+  stiffness: 380,
+  damping: 32,
+  mass: 0.8,
+}}
                       onClick={() => {
                         // Click center to play, click sides to navigate
                         if (isCenter) openAt(item.index);
@@ -176,12 +193,13 @@ const IndependenceDayVideos = ({ videos = independenceDayVideos }) => {
                       `}
                     >
                       <div className="relative w-full aspect-video overflow-hidden rounded-lg bg-[#0B1F3A] sm:rounded-2xl">
-                        <img
-                          src={item.poster || undefined}
-                          alt="Video Thumbnail"
-                          className="h-full w-full object-cover transition-transform duration-500 hover:scale-105"
-                          loading={isCenter ? "eager" : "lazy"}
-                        />
+                       <img
+  src={item.poster || undefined}
+  alt="Video Thumbnail"
+  className="h-full w-full object-cover transition-transform duration-500 hover:scale-105"
+  loading="eager"
+  decoding="async"
+/>
 
                         <div className="absolute inset-0 bg-[#0B1F3A]/20 transition-colors hover:bg-[#0B1F3A]/40" />
 
