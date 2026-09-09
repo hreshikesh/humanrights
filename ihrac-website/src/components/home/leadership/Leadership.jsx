@@ -36,8 +36,8 @@ const Leadership = () => {
           </p>
         </motion.div>
 
-        {/* Cards Grid: Adjusted for mobile (2 per row configuration using grid-cols-1 sm:grid-cols-2) */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 lg:gap-10 mt-16 sm:mt-20">
+        {/* 3-Cards Responsive Grid */}
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-10 mt-16 sm:mt-20">
           {leadershipData.map((leader, index) => (
             <LeaderCard
               key={leader.id}

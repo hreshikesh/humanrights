@@ -41,7 +41,7 @@ const TeamSection = () => {
         </motion.div>
 
         {/* 2 cols mobile (4 cards in 2 rows) · 4 cols desktop */}
-        <div className="mt-12 grid grid-cols-2 gap-3 sm:mt-16 sm:gap-5 lg:grid-cols-4 lg:gap-6">
+        <div className="mt-12 grid grid-cols-2 gap-3 sm:mt-16 sm:gap-5 lg:grid-cols-6 lg:gap-6">
           {teamMembers.map((member, i) => (
             <motion.div
               key={member.id}

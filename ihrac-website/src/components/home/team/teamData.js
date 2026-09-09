@@ -78,10 +78,5 @@ export const teamMembers = [
     role: "KARNATAKA STATE ORGANIZING SECRETARY",
     image: lokeshImg,
   },
-  {
-    id: 12,
-    name: "E. Thirunavuarasu",
-    role: "",
-    image: arasuImg,
-  },
+ 
 ];
