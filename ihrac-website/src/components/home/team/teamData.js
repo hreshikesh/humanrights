@@ -10,6 +10,8 @@ import rajaImg from "../../../assets/people/ramesh.webp";
 import samualImg from "../../../assets/people/samual.webp";
 import saniImg from "../../../assets/people/sani.webp";
 import subhashImg from "../../../assets/people/subhash.webp";
+const ganeshaImg =
+"https://res.cloudinary.com/k4uklwi4/image/upload/v1789015225/Screenshot_2026-09-10_100828_oxpytl.jpg";
 
 export const teamMembers = [
   {
@@ -78,5 +80,10 @@ export const teamMembers = [
     role: "KARNATAKA STATE ORGANIZING SECRETARY",
     image: lokeshImg,
   },
- 
+ {
+  id: 13,
+  name: "Ganesha V",
+  role: "BANGALORE CITY VICE PRESIDENT",
+  image: ganeshaImg,
+},
 ];

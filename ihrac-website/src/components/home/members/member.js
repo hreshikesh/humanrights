@@ -469,4 +469,9 @@ export const teamMembers = [
     name: "Raji J",
     image: "https://res.cloudinary.com/k4uklwi4/image/upload/v1788859924/Screenshot_2026-09-08_145141_busdct.jpg",
   },
+    {
+    id: 95,
+    name: "Sharmila Mehaboob",
+    image: "https://res.cloudinary.com/k4uklwi4/image/upload/v1789015226/Screenshot_2026-09-10_100851_fxrlxh.jpg",
+  },
 ];
