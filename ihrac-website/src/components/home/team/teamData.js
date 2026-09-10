@@ -53,7 +53,7 @@ export const teamMembers = [
   {
     id: 7,
     name: "J. Samuel",
-    role: "KARNATAKA STATE  PRESIDENT",
+    role: "KARNATAKA STATE VICE PRESIDENT",
     image: samualImg,
   },
   {
